@@ -1,16 +1,21 @@
 .title{
+    width: 100%;
     padding:5px;
     margin-top:5%;
 }
+.container{
+    text-align: center;
+    align-items: center;
+}
 .fluid-container{
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 7rem;
     background-color: #F0F0F0;
     width: 70%;
+    text-align: left;
     border-radius: 5%;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: -1px 1px 5px black;
 }
 .code{
-    width: 50%;
     text-align: left;
     
 }
@@ -19,10 +24,13 @@ h2{
 }
 .code_syntex{
     margin: auto;
+    width: 50%;
+    margin-left: -1%;
     background : #F5F5F5;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     text-align: left;
+    align-items: left;
     padding-left: 1rem;
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
