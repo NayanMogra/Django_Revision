@@ -1,0 +1,29 @@
+.title{
+    padding:5px;
+    margin-top:5%;
+}
+.fluid-container{
+    padding: 2rem 0 2rem 0;
+    background-color: #F0F0F0;
+    width: 70%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px black;
+}
+.code{
+    width: 50%;
+    text-align: left;
+    
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
+.code_syntex{
+    margin: auto;
+    background : #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}

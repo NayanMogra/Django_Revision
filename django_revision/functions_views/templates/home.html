@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+<script>
+
+</script>
+
+<center>
+    <div class="container">
+    {% for val in obj %}
+    <div class = "title">
+        <h2>{{val.title}}</h2>
+    </div>
+    <div class = "fluid-container">
+        <div class="code">
+        {{val.code|safe}}
+        </div>
+    </div>
+    {% endfor %}
+    <br>
+    </div>
+    
+</center> 
+<br>
+<br>
+<br>   
+{% endblock %}
